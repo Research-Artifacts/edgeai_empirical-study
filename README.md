@@ -1,10 +1,63 @@
+# Getting Started
+
+Follow this step-by-step guide to set up your environment, install dependencies with **Poetry**, and run the 
+**first script of the study (GitHub API data collection — `api_search`)**.
+
+---
+## 🧩 Step 1 — Prepare you Environment
+
+
+
+#### 1.1) Prerequisites
+
+- **Git**
+- **Python 3.13** (recommended)
+- **Poetry 1.8+**
+
+> 💡 Tip: if Poetry is not installed yet, use:
+> ```bash
+>  pipx install poetry
+> ```
+
+---
+
+#### 1.2) Clone the repository
+
+```bash
+  git clone https://github.com/<org>/<edgeai.empirical-study.replication-package>.git
+  cd edgeai.empirical-study.replication-package
+```
+
+#### 1.3) Set up environment variables
+Create your .env file (used by the data collection scripts):
+```shell
+  cp .env.example .env
+```
+Edit .env and set at least the following variables:
+```dotenv
+GITHUB_TOKEN=ghp_xxx...# token with 'repo' and 'read:org' scopes recommended
+GITHUB_API_URL=https://api.github.com
+```
+⚠️ Use a Personal Access Token (classic) with repo and read:org permissions to avoid rate-limit issues during data collection.
+
+
+#### 1.4) Install dependencies with Poetry
+```shell
+  poetry lock --no-update
+  poetry install
+  poetry env activate 
+```
+
+
 ## 🧩 Step 2 — Dataset Processing & Cleaning
 
-After collecting raw repository data using the **GitHub Search API script** (`api_search.py`), the next step is to **process and refine the dataset** before performing analysis or visualization.  
+After collecting raw repository data using the **GitHub Search API script** (`api_search.py`), the next step is to 
+**process and refine the dataset** before performing analysis or visualization.  
 This stage is handled by the script:
 
 
-It provides a **menu-driven interface** that consolidates all data-treatment routines into a single entry point, ensuring reproducibility and reducing manual effort.
+It provides a **menu-driven interface** that consolidates all data-treatment routines into a single entry point, 
+ensuring reproducibility and reducing manual effort.
 
 ---
 
