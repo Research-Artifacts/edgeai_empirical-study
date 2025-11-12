@@ -30,7 +30,7 @@ Create your .env file (used by the data collection scripts):
 Edit .env and set at least the following variables:
 
 ```dotenv
-GITHUB_AP_TOKEN=ghp_xxx...# token with 'repo' and 'read:org' scopes recommended
+GITHUB_API_TOKEN=ghp_xxx...# token with 'repo' and 'read:org' scopes recommended
 ```
 
 ⚠️ Use a Personal Access Token (classic) with repo and read:org permissions to avoid rate-limit issues during data 

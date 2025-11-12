@@ -17,7 +17,7 @@ Follow this step-by-step guide to set up your environment, install dependencies 
 
 
 
-## 🔍 Step 2 — GitHub Mining Script (Repository Retrieval)
+## 🔍 Step 1 — GitHub Mining Script
 
 This replication package includes an automated script responsible for collecting GitHub repositories related to Edge AI and adjacent topics. This script represents the **second step of the data-collection pipeline**, executed **after** running the API-based search script (`api_search`).
 
@@ -43,19 +43,14 @@ These CSVs form the foundational dataset used in the subsequent filtering, clean
 
 ### ⚙️ How to Run
 
-1. Ensure that all project dependencies are installed using Poetry:
+1. Ensure that all project dependencies are installed using Poetry and Activate the virtual environment:
 
-   ```bash
-   poetry install
-   ```
+### 🔒 Authentication
 
-2. Activate the virtual environment:
+Make sure that your GitHub Personal Access Token (PAT) is set in the `headers` inside the `config.py`.
+This significantly reduces the chance of rate-limit errors during large-scale mining.
 
-   ```bash
-   poetry shell
-   ```
-
-3. Execute the mining script:
+2. Execute the mining script:
 
    ```bash
    poetry run python path/to/your_script.py
@@ -68,17 +63,6 @@ These CSVs form the foundational dataset used in the subsequent filtering, clean
    * Count commits (total and 2024-specific)
    * Count contributors
    * Save all enriched repository records into structured CSV files
-
-### 🧠 Internals and Logging
-
-* All messages are emitted through Python’s `logging` module (no `print()` statements).
-* Docstrings are provided in English to support reproducibility and clarity for reviewers.
-* The script includes throttling (`sleep`) to avoid exceeding GitHub API rate limits.
-
-### 🔒 Authentication
-
-Make sure that your GitHub Personal Access Token (PAT) is set in the `headers` inside the `config.py`.
-This significantly reduces the chance of rate-limit errors during large-scale mining.
 
 ---
 
@@ -110,16 +94,13 @@ This script performs the following main operations:
 Each operation automatically generates timestamped CSV outputs under:
 
 
----
 
-### ▶️ How to Run
+2. Execute the mining script:
 
-1. **Ensure dependencies are installed:**
-
-   ```bash
-   pip install -r requirements.txt
-
-python dataset_processing_menu.py
+```bash
+  poetry run python python dataset_processing_menu.py
+```
+   
 
 ```
 === Main Menu ===
@@ -133,7 +114,6 @@ Enter your choice:
 ```
 
 ```css
-
 dataset/
 ├── raw_data/
 │   ├── RAW_*_repos_2025-01-19_22:32:38
@@ -145,3 +125,4 @@ dataset/
 │   └── [EXCLUSION-TERM]_edgeai_2025-11-12.csv
 └── data_analysis/
     └── filtered_by_exclusion_criteria/
+```
