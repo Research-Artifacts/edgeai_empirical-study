@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{ include = "edgeai" }]
 
 [tool.poetry.dependencies]
-python = ">=3,<4.0"
+python = ">=3.10,<4.0"
 requests = ">=2.32.5,<3.0.0"
 python-dotenv = ">=1.0.0,<2.0.0"
 numpy = ">=2.3.4,<3.0.0"
