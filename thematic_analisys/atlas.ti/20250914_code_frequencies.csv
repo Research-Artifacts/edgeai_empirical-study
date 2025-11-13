@@ -1,0 +1,466 @@
+Code;;Magnitude Degree;Density;Groups;Number of Groups;Comment;Creation Date;Date Modified
+● T1. Edge Connectivity & Communication Protocols;;112;0;Themes;1;;4/7/25;5/12/25
+;● Adverse Network Conditions;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Asynchronous Communication;5;0;ATLAS;1;;4/2/25;5/12/25
+;● Bi-Directional Communication;9;0;ATLAS;1;;3/31/25;5/12/25
+;● Client Connection Issues;5;0;ATLAS;1;;3/25/25;5/12/25
+;● Communication Protocol;44;0;ATLAS;1;;3/25/25;5/12/25
+;● Connection Quality;10;0;ATLAS;1;;3/31/25;5/12/25
+;● Connectivity Management;3;0;ATLAS;1;;4/4/25;5/12/25
+;● Data Transmission;35;0;ATLAS;1;;3/31/25;5/12/25
+;● Dependency on Network Operator;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Device Communication;9;0;ATLAS;1;;4/5/25;5/12/25
+;● Disconnect Procedure;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Dynamic Network Management;2;0;ATLAS;1;;4/5/25;5/12/25
+;● HTTP POST Request;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Information Transfer;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Keep-Alive Packets;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Listening Address;3;0;ATLAS;1;;3/25/25;5/12/25
+;● Low Bandwidth;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Message Transmission;20;0;ATLAS;1;;3/25/25;5/12/25
+;● MQTT Interface;10;0;ATLAS;1;;4/5/25;5/12/25
+;● Multi-Language Protocol;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Multiple NICs Management;1;0;ATLAS;1;;4/4/25;5/12/25
+;● Multiple URI Support;1;0;ATLAS;1;;4/5/25;5/12/25
+;● NAT Traversal;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Network Complexity;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Network Configuration;8;0;ATLAS;1;;4/4/25;5/12/25
+;● New Protocol Support;0;0;ATLAS;1;;4/3/25;5/12/25
+;● Noise Interference;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Packet Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Peer-to-Peer Communication;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Remote Control;4;0;ATLAS;1;;4/2/25;5/12/25
+;● Send and Receive Operations;4;0;ATLAS;1;;4/1/25;5/12/25
+;● System Operational Communication;1;0;ATLAS;1;;4/4/25;5/12/25
+;● Traffic Management;2;0;ATLAS;1;;4/4/25;5/12/25
+;● Verificação de fluxo MQTT;0;0;ATLAS;1;;3/31/25;5/12/25
+;● Virtual Machine Communication;4;0;ATLAS;1;;4/4/25;5/12/25
+;● Web-Socket Connection;4;0;ATLAS;1;;4/1/25;5/12/25
+;● WebRTC Functionality;1;0;ATLAS;1;;4/5/25;5/12/25
+● T2. Security, Privacy & Trust Management;;71;0;Themes;1;;4/9/25;5/12/25
+;● Access Control;19;0;ATLAS;1;;3/25/25;5/12/25
+;● ACL Configuration;1;0;ATLAS;1;;3/31/25;5/12/25
+;● AI Security Mechanism;3;0;ATLAS;1;;4/2/25;5/12/25
+;● Allowlist;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Authentication Methods;21;0;ATLAS;1;;3/25/25;5/12/25
+;● Certificate Configuration;5;0;ATLAS;1;;3/31/25;5/12/25
+;● Certificate Storage;2;0;ATLAS;1;;3/31/25;5/12/25
+;● Certificate Validation;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Clear and Encrypted Message Handling;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Compliance Requirements;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Crypto-based ID;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Custom Linux Security Module;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Device Access Control;11;0;Jander;1;;4/1/25;5/12/25
+;● Device Authenticity;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Disclosure Timeline;1;0;ATLAS;1;;4/6/25;5/12/25
+;● DMZ Configuration;1;0;ATLAS;1;;4/2/25;5/12/25
+;● DNS Interception;1;0;ATLAS;1;;4/5/25;5/12/25
+;● DoS Attack Prevention;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Encryption Techniques;4;0;ATLAS;1;;4/5/25;5/12/25
+;● Executable Detection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● File Verification;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Firewall Rules;3;0;ATLAS;1;;4/4/25;5/12/25
+;● JWT-based Authorization;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Multi-Factor Authentication;1;0;ATLAS;1;;4/5/25;5/12/25
+;● NDEATH Certificate;1;0;ATLAS;1;;4/5/25;5/12/25
+;● New Access Levels;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Perimeter Security;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Physical Tampering Prevention;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Privacy Measures;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Public Security Vulnerabilities;0;0;ATLAS;1;;4/6/25;5/12/25
+;● Replay Attack Prevention;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Secret Leak Prevention;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Secret Management Solutions;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Secure Communication;9;0;ATLAS;1;;4/4/25;5/12/25
+;● Secure On-boarding;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Security Audit;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Security Context;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Security Settings;37;0;ATLAS;1;;3/31/25;5/12/25
+;● Sensitive Information Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Signature Verification;1;0;ATLAS;1;;4/5/25;5/12/25
+;● SSH Authentication;1;0;ATLAS;1;;4/4/25;5/12/25
+;● SSL/TLS Configuration;3;0;ATLAS;1;;3/31/25;5/12/25
+;● Unique ID Requirement;3;0;ATLAS;1;;4/5/25;5/12/25
+;● User and Client Entities;2;0;ATLAS;1;;4/3/25;5/12/25
+;● User Authentication;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Vulnerability Management;1;0;ATLAS;1;;4/6/25;5/12/25
+● T3. Device Lifecycle Management (Provisoning → Deployment → Operation);;106;0;Themes;1;;4/9/25;5/12/25
+;● Agent Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Alocação de jobs em múltiplos nós;0;0;ATLAS;1;;4/7/25;5/12/25
+;● Application Deployment;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Application Registration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Auto Discovery;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Automated Patching;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Automation;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Base Service Configuration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Centralized Management;3;0;ATLAS;1;;4/2/25;5/12/25
+;● Component Configuration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Component Management;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Component Transfer;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Container Management;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Controller Selection;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Device Binding;8;0;ATLAS;1;;4/1/25;5/12/25
+;● Device Creation;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Device Discovery;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Device Management;6;0;Jander;1;;4/5/25;5/12/25
+;● Device Online Status;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Edge Device Management;6;0;ATLAS;1;;4/4/25;5/12/25
+;● Edge Discovery;3;0;ATLAS;1;;4/1/25;5/12/25
+;● Edge Environments;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Effective Provisioning;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Fleet Operators;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Gateway Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Lifecycle Management;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Manager Interface;1;0;ATLAS;1;;4/1/25;5/12/25
+;● Module Management;3;0;ATLAS;1;;4/4/25;5/12/25
+;● Module Registration;4;0;ATLAS;1;;4/1/25;5/12/25
+;● New Deployment Options;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Node Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Node Registration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Provisioning;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Replica Management;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Resource Management;23;0;ATLAS;1;;4/2/25;5/12/25
+;● Service Continuity;6;0;ATLAS;1;;4/2/25;5/12/25
+;● Service Discovery;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Service Management;20;0;ATLAS;1;;4/1/25;5/12/25
+;● System Deployment Options;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Unified APIs;5;0;ATLAS;1;;4/1/25;5/12/25
+;● Unified Deployment;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Unified Interface;1;0;ATLAS;1;;4/3/25;5/12/25
+● T4. Modular Edge Architecture & Service Orchestration;;97;0;Themes;1;;4/9/25;5/12/25
+;● Abstraction Layer;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Application Architecture;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Automated Service Orchestration;2;0;ATLAS;1;;4/6/25;5/12/25
+;● Code Reusability;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Complexity Reduction;4;0;ATLAS;1;;4/2/25;5/12/25
+;● Controller-Worker Model;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Core Container;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Core Services;35;0;ATLAS;1;;3/31/25;5/12/25
+;● Data Plane;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Detailed Control;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Distributed Application;2;0;ATLAS;1;;4/6/25;5/12/25
+;● Distributed Execution Framework;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Distributed Job Scheduler;3;0;ATLAS;1;;4/1/25;5/12/25
+;● Dynamic Component Integration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Extensibility;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Extensible Applications;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Extensible Design;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Integration of Components;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Inter-Module Communication;13;0;ATLAS;1;;4/1/25;5/12/25
+;● Interface Definition;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Master-Minion Architecture;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Merge Restrictions;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Microservices Architecture;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Modular Application Development;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Modular Architecture;11;0;ATLAS;1;;4/2/25;5/12/25
+;● Module Integration;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Multi-Layer Architecture;1;0;Jander;1;;4/5/25;5/12/25
+;● Multi-Tenant Architecture;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Multiple Architectures;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Node Execution;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Orchestration Layer;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Pipeline Management;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Plug-in Integration;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Plug-ins;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Process Communication;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Process Role Categorization;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Self-Adaptive Architecrutes;2;0;Jander;1;;4/2/25;5/12/25
+;● Standard-Based;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Stateless Architecture;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Workflow Configuration;2;0;ATLAS;1;;4/4/25;5/12/25
+● T5. Edge‑Cloud Continuum Integration & Messaging Middleware;;90;0;Themes;1;;4/9/25;5/12/25
+;● Broker Configuration;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Channel Management;2;0;ATLAS;1;;4/1/25;5/12/25
+;● Cloud Connection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Cloud Integration;38;0;ATLAS;1;;3/31/25;5/12/25
+;● Cloud to Edge Communication;16;0;ATLAS;1;;4/1/25;5/12/25
+;● Domain Interconnection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● External System Integration;5;0;ATLAS;1;;4/2/25;5/12/25
+;● Fog Computing;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Fog Instance Connection;2;0;ATLAS;1;;4/5/25;5/12/25
+;● GraphQL API;1;0;ATLAS;1;;4/5/25;5/12/25
+;● High-Performance Messaging;4;0;ATLAS;1;;4/5/25;5/12/25
+;● Illusion of Continuity;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Interoperability of Different Services;9;0;Jander;1;;4/2/25;5/12/25
+;● IoT Service Providers;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Lightweight Messaging System;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Management and Routing Tasks;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Message Structure;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Middleware Integration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Multi-cloud;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Network Server Integration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Payload Schema Specifications;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Pluggable Transport System;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Protocol Translation;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Pub/Sub Messaging Service;2;0;ATLAS;1;;4/6/25;5/12/25
+;● Redis Message Broker;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Reliable Cloud Connectivity;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Route Configuration;2;0;ATLAS;1;;4/4/25;5/12/25
+;● Server Connect Token;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Server URI Specification;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Service Hosting;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Service Invocation;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Shared Services;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Simplified Cloud Connectivity;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Sparkplug Specification;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Third Party Application Integration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● ZeroMQ Transport;1;0;ATLAS;1;;4/5/25;5/12/25
+● T6. Digital Twins & Device State Management;;8;0;Themes;1;;4/9/25;5/12/25
+;● Digital Twin;6;0;ATLAS;1;;4/5/25;5/12/25
+;● Object State Reporting;4;0;ATLAS;1;;4/5/25;5/12/25
+● T7. Infrastructure Automation & Configuration Management;;31;0;Themes;1;;4/9/25;5/12/25
+;● Configuration Management;12;0;ATLAS;1;;4/1/25;5/12/25
+;● Environment Variables;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Format Property Configuration;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Hierarchical Configuration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Image Address;1;0;ATLAS;1;;3/25/25;5/12/25
+;● Image Size Configuration;1;0;ATLAS;1;;4/1/25;5/12/25
+;● Infrastructure Accommodation;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Infrastructure Services;2;0;ATLAS;1;;4/6/25;5/12/25
+;● Non-Zero Length String;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Package Purging;1;0;ATLAS;1;;4/5/25;5/12/25
+;● path settings;4;0;ATLAS;1;;3/25/25;5/12/25
+;● Source Definition;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Source Instance;2;0;ATLAS;1;;4/2/25;5/12/25
+;● State Serialization;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Target Definition;1;0;ATLAS;1;;4/5/25;5/12/25
+● T8. Observability, Monitoring & Diagnostics;;38;0;Themes;1;;4/9/25;5/12/25
+;● Automatic Troubleshooting Strategy;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Endpoint Health Management;3;0;ATLAS;1;;4/2/25;5/12/25
+;● Event Logging;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Failure Detection;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Health Monitoring Feature;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Logger Configuration;3;0;ATLAS;1;;3/25/25;5/12/25
+;● Metrics Collection;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Metrics Endpoint;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Monitoring;22;0;ATLAS;1;;3/31/25;5/12/25
+;● Network Failure Detection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● OpenTelemetry Support;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Recovery Mechanism;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Red Hat OpenShift Observability;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Reporting by Exception;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Reporting Process;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Rollback Capability;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Status Monitoring;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Status Notification;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Submodule Restart;1;0;ATLAS;1;;4/1/25;5/12/25
+;● Telemetry Management;1;0;ATLAS;1;;4/4/25;5/12/25
+;● TIG Stack;1;0;ATLAS;1;;4/5/25;5/12/25
+● T9. Optimised AI/ML Execution at the Edge;;93;0;Themes;1;;4/9/25;5/12/25
+;● AI Skill Definitions;1;0;ATLAS;1;;4/5/25;5/12/25
+;● AI/ML Inference;3;0;ATLAS;1;;4/5/25;5/12/25
+;● AOT Configuration;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Background Process Invocation;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Data Preprocessing;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Distributed AI Processing;11;0;Jander;1;;4/1/25;5/12/25
+;● Edge Data Processing Applications;25;0;ATLAS;1;;3/31/25;5/12/25
+;● Edge Runtime;4;0;ATLAS;1;;4/4/25;5/12/25
+;● Efficient Execution;16;0;ATLAS;1;;4/2/25;5/12/25
+;● Flexible Edge Computing Services;6;0;ATLAS;1;;4/3/25;5/12/25
+;● Function Synchronization;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Hyperparameter Tuning;0;0;ATLAS;1;;4/2/25;5/12/25
+;● Lightweight Runtime;10;0;ATLAS;1;;4/2/25;5/12/25
+;● Local Processing;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Memory Layout Conversion;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Memory Management;5;0;ATLAS;1;;4/3/25;5/12/25
+;● Model Aggregation;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Model Deployment;5;0;ATLAS;1;;4/3/25;5/12/25
+;● Model Partition Converter;3;0;ATLAS;1;;4/1/25;5/12/25
+;● Model Size Reduction;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Multi-threading;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Offline Capabilities;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Parallel Processing;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Quantization Techniques;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Runtime Optimization;9;0;ATLAS;1;;4/2/25;5/12/25
+;● Service Offloading;1;0;ATLAS;1;;4/1/25;5/12/25
+;● Signal Denoise;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Simplified Distributed Training;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Tensor Operators;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Tensor-Core Programs;0;0;ATLAS;1;;4/3/25;5/12/25
+;● Vector Addition;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Waiting Mechanism;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Worker Threads;1;0;ATLAS;1;;4/5/25;5/12/25
+● T10. Resource Efficiency & Performance Optimisation;;102;0;Themes;1;;4/9/25;5/12/25
+;● Available Resources;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Binary Size Savings;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Business Demands;1;0;ATLAS;1;;4/6/25;5/12/25
+;● compatibility issues;12;0;ATLAS;1;;3/31/25;5/12/25
+;● Cost Reduction;1;0;ATLAS;1;;4/6/25;5/12/25
+;● CPU Utilization;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Efficiency;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Essential Information;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Expectation Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Failure Rate;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Fast Response Time;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Fault Tolerance;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Future Enhancements;2;0;ATLAS;1;;4/5/25;5/12/25
+;● GPU Resource Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Growing Client Needs;1;0;ATLAS;1;;4/5/25;5/12/25
+;● High Concurrency;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Infrastructure Optimization;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Labeling Issues;2;0;ATLAS;1;;4/1/25;5/12/25
+;● Load Balancing;6;0;ATLAS;1;;4/1/25;5/12/25
+;● Low Latency;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Minimal Functionality;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Model Performance;3;0;ATLAS;1;;4/2/25;5/12/25
+;● module performance;2;0;ATLAS;1;;3/31/25;5/12/25
+;● New Measurement Techniques;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Non-Deterministic Behavior;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Performance Improvement;44;0;ATLAS;1;;3/31/25;5/12/25
+;● Performance Metrics;1;0;Jander;1;;4/6/25;5/12/25
+;● Performance Variability;8;0;ATLAS;1;;3/31/25;5/12/25
+;● Portability;3;0;ATLAS;1;;4/2/25;5/12/25
+;● Quality Assurance;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Quality Improvement;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Reliability;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Reliable Systems;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Repeatable Processes;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Robustness;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Scalability;13;0;ATLAS;1;;4/2/25;5/12/25
+;● Service Accessibility;4;0;ATLAS;1;;4/5/25;5/12/25
+;● Single Client Use Case;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Speedy Delivery;2;0;ATLAS;1;;4/4/25;5/12/25
+;● Standard of Excellence;1;0;ATLAS;1;;4/5/25;5/12/25
+;● User Satisfaction;1;0;ATLAS;1;;4/5/25;5/12/25
+;● workload;2;0;Jander;1;;4/4/25;5/12/25
+● T11 – Stream Processing & Event‑Driven Architectures (Edge);;47;0;Themes;1;;4/9/25;5/12/25
+;● Astarte Triggers;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Condition Logic;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Continuous Streaming Data Source;3;0;ATLAS;1;;4/2/25;5/12/25
+;● Customer Preferences;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Data Transformation and Alerting Services;11;0;ATLAS;1;;3/31/25;5/12/25
+;● Envio de notificações;0;0;GPT;1;;4/7/25;5/12/25
+;● Event API;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Event Detection and Notification;7;0;ATLAS;1;;3/31/25;5/12/25
+;● Event Stream;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Eventbus Interface;1;0;ATLAS;1;;4/2/25;5/12/25
+;● LeafEvent;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Pattern Detection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Pattern Testing;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Prioritization of Critical Data;1;0;ATLAS;1;;4/4/25;5/12/25
+;● Processing Pipeline;5;0;ATLAS;1;;4/2/25;5/12/25
+;● Processing Rate Limit;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Queue Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Real-time Processing Needs;6;0;ATLAS;1;;4/2/25;5/12/25
+;● Rule Connection;5;0;ATLAS;1;;4/2/25;5/12/25
+;● Rule Weakening;1;0;ATLAS;1;;4/2/25;5/12/25
+;● SQL-based Rule Engine;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Subscriber Action;2;0;ATLAS;1;;3/25/25;5/12/25
+● T12. Data Storage, Persistence & Caching;;28;0;Themes;1;;4/9/25;5/12/25
+;● Backup and Restore Functionality;4;0;ATLAS;1;;3/31/25;5/12/25
+;● Data Integrity;5;0;ATLAS;1;;4/5/25;5/12/25
+;● Data Persistence;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Data Storage Management;10;0;Jander;1;;4/1/25;5/12/25
+;● Database Configuration;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Distributed Storage Solution;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Local Storage;2;0;ATLAS;1;;4/5/25;5/12/25
+;● restrictions to storage volume;4;0;ATLAS;1;;3/25/25;5/12/25
+;● S3;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Storage Engine Options;4;0;ATLAS;1;;3/31/25;5/12/25
+;● Storage Volume Path;4;0;ATLAS;1;;3/25/25;5/12/25
+;● Vector Database Functionality;1;0;ATLAS;1;;4/5/25;5/12/25
+● T13. Sensor Abstraction & Hardware Interface Integration;;80;0;Themes;1;;4/9/25;5/12/25
+;● API Integration;1;0;ATLAS;1;;4/5/25;5/12/25
+;● API Readiness;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Astarte Integration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Camera Setup;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Data Collection;9;0;ATLAS;1;;4/2/25;5/12/25
+;● Data Integration;8;0;ATLAS;1;;4/5/25;5/12/25
+;● Driver Service;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Edge Device Connection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Edge Node Integration;25;0;ATLAS;1;;4/1/25;5/12/25
+;● Embedded Systems;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Hardware and Software Development;2;0;ATLAS;1;;4/2/25;5/12/25
+;● Hardware Compatibility;9;0;ATLAS;1;;3/31/25;5/12/25
+;● Hardware Specifications;17;0;ATLAS;1;;3/31/25;5/12/25
+;● Hardware-Agnostic Specification;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Hybrid Edge Device;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Integration of DPU IP;1;0;ATLAS;1;;4/6/25;5/12/25
+;● IoT Integration;4;0;ATLAS;1;;4/4/25;5/12/25
+;● Linux Workload;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Local Device Connection;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Microcontroller Support;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Mobile IoT;1;0;ATLAS;1;;4/5/25;5/12/25
+;● REST API Integration;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Sensor Data Handling;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Signal Collection;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Vehicle Data Management;5;0;ATLAS;1;;4/3/25;5/12/25
+● T14. Edge Development Frameworks & Programmability;;75;0;Themes;1;;4/9/25;5/12/25
+;● Application Creation;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Application Services;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Browser-Based Applications;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Client Application Development;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Command Execution;3;0;ATLAS;1;;4/5/25;5/12/25
+;● Command Line Interface;4;0;ATLAS;1;;4/3/25;5/12/25
+;● Cross-Platform Runtime;8;0;ATLAS;1;;4/2/25;5/12/25
+;● Custom Solutions;6;0;ATLAS;1;;4/4/25;5/12/25
+;● Custom Tasks;4;0;ATLAS;1;;4/3/25;5/12/25
+;● Dashboard Functionality;5;0;ATLAS;1;;4/4/25;5/12/25
+;● Data-Centric Edge Programming Model;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Debugging Techniques;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Developer Support;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Dynamic Application Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Dynamic Library Usage;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Easy Development Features;15;0;ATLAS;1;;4/2/25;5/12/25
+;● Easy Sharing;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Error Handling;6;0;ATLAS;1;;4/1/25;5/12/25
+;● Frontend Interaction;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Function Call;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Functions List;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Input and Output;0;0;ATLAS;1;;4/2/25;5/12/25
+;● Language Supports;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Low Debugging Difficulty;1;0;Jander;1;;4/2/25;5/12/25
+;● Modification Proposals;1;0;ATLAS;1;;4/2/25;5/12/25
+;● Open-Source Project;0;0;ATLAS;1;;4/5/25;5/12/25
+;● Programming Language Support;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Reusable Content;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Script Utilization;1;0;ATLAS;1;;4/5/25;5/12/25
+;● SDK Availability;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Service Build;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Tailored Solutions;3;0;ATLAS;1;;4/4/25;5/12/25
+;● Task Factory;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Testing Practices;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Text-based User Interface;2;0;ATLAS;1;;4/3/25;5/12/25
+;● User Interaction;12;0;ATLAS;1;;4/2/25;5/12/25
+;● User-defined Modules;5;0;ATLAS;1;;4/4/25;5/12/25
+;● User-defined Passes;1;0;ATLAS;1;;4/3/25;5/12/25
+;● User-Friendly APIs;11;0;ATLAS;1;;4/2/25;5/12/25
+;● Visual Context;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Web-Based Interface;2;0;ATLAS;1;;4/5/25;5/12/25
+● T15. DevOps, CI/CD & Build Environments for Edge;;37;0;Themes;1;;4/9/25;5/12/25
+;● Branch Environments;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Code Review;1;0;ATLAS;1;;4/6/25;5/12/25
+;● Collaborators Interaction;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Consistent Tool Usage;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Container Engines;3;0;ATLAS;1;;4/3/25;5/12/25
+;● Container Image Building;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Container Isolation;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Containerized Deployments;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Deployment Environment;13;0;ATLAS;1;;4/2/25;5/12/25
+;● Docker Container Mode;10;0;ATLAS;1;;3/25/25;5/12/25
+;● Docker Engine Communication;1;0;ATLAS;1;;4/3/25;5/12/25
+;● GitOps Management;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Kubernetes Cluster Management;7;0;ATLAS;1;;4/2/25;5/12/25
+;● Kubernetes Native Platform;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Kubernetes Tools;1;0;ATLAS;1;;4/5/25;5/12/25
+;● New Process Initialization;2;0;ATLAS;1;;4/5/25;5/12/25
+;● OCI-compliant Runtimes;4;0;ATLAS;1;;4/1/25;5/12/25
+;● Red Hat OpenShift GitOps;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Red Hat OpenShift Pipelines;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Single Dockerfile Usage;1;0;ATLAS;1;;4/5/25;5/12/25
+● T16. LPWAN/LoRaWAN & Other Long‑Range Low‑Power Communications;;1;0;Themes;1;;4/9/25;5/12/25
+;● Long-Range Communication;1;0;ATLAS;1;;4/4/25;5/12/25
+;● Low-Power Connected Objects;1;0;ATLAS;1;;4/4/25;5/12/25
+● T17. Network Virtualisation, VPNs & SDN at the Edge;;4;0;Themes;1;;4/9/25;5/12/25
+;● Network Virtualization;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Overlay Networking;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Segmentation;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Software-Defined Networking;2;0;ATLAS;1;;4/5/25;5/12/25
+● T18. Trusted Connectors, Data Sovereignty & Usage Policies;;10;0;Themes;1;;4/9/25;5/12/25
+;● Data Usage Control;4;0;ATLAS;1;;4/5/25;5/12/25
+;● Identity Translation;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Identity Translation Module;2;0;ATLAS;1;;4/3/25;5/12/25
+;● Identity Translation Pattern;1;0;ATLAS;1;;4/3/25;5/12/25
+;● Policy Engine;1;0;ATLAS;1;;4/5/25;5/12/25
+;● Trust Establishment;2;0;ATLAS;1;;4/5/25;5/12/25
+;● Trusted Connectors;1;0;ATLAS;1;;4/5/25;5/12/25
