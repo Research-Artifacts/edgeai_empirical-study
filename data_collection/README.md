@@ -81,10 +81,10 @@ This script performs the following main operations:
 > [3] - Filter by Language Descriptions \
 > [4] - Filter by Exclusion Terms \
 > ================= \
-> Enter your choice:
+> **Enter your choice:**
 
 
-> Each operation automatically generates timestamped CSV outputs under:
+> _Each operation automatically generates timestamped CSV outputs under:_
 >
 > ```text
 >    dataset/
