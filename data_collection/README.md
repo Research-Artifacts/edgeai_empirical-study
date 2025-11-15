@@ -37,7 +37,7 @@ This significantly reduces the chance of rate-limit errors during large-scale mi
    poetry run python api_search.py
    ```
 
-4. The script will automatically:
+3. The script will automatically:
 
    * Query the GitHub REST API for all predefined Edge AI-related search terms
    * Count total commits 2024 (can be changed in the script)
@@ -67,7 +67,7 @@ This script performs the following main operations:
 
 
 
-2. Execute the mining script:
+1. Execute the treatment script:
 
 ```bash
   poetry run python data_treatment.py
