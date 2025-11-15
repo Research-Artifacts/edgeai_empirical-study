@@ -1,4 +1,4 @@
-fragment_id,repo_id,repo_name,quality_attribute,fragments,codes,n_codes
+fragment_id,repo_id,repo_name,quality_attribute,fragments,codes,#_codes
 F001,R037,baetyl/baetyl,"Functional Suitability, Reliability","""Check the publishing and receiving messages via MQTTBox.""","T1. Edge Connectivity & Communication Protocols: Communication Protocol, T1. Edge Connectivity & Communication Protocols: Listening Address, T1. Edge Connectivity & Communication Protocols: Message Transmission",3
 F004,R037,baetyl/baetyl,Interaction Capability,"""Click the Add subscriber button to subscribe to the topic t and t/topic.""","T1. Edge Connectivity & Communication Protocols: Message Transmission, T11. Stream Processing & Event‑Driven Architectures (Edge): Subscriber Action",2
 F005,R037,baetyl/baetyl,Security,"""The specified account (depends on username/password) will have permission to all single-level legal topics of MQTT protocol.""","T1. Edge Connectivity & Communication Protocols: Communication Protocol, T2. Security, Privacy & Trust Management: Access Control, T2. Security, Privacy & Trust Management: Authentication Methods",3

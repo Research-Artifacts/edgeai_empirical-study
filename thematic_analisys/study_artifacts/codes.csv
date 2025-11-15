@@ -1,4 +1,4 @@
-code_ID,code,n_ocurrencies,high-order_themes,theme_ID,theme
+code_ID,code,#_of_occurrences,high-order_themes,theme_ID,theme
 C001,Access Control,22,"Security, Authentication, and Usage Policies",T02,"Security, Privacy & Trust Management"
 C002,ACL Configuration,1,"Security, Authentication, and Usage Policies",T02,"Security, Privacy & Trust Management"
 C003,Adverse Network Conditions,2,"Communication Protocols, Infrastructures and Continuum",T01,Edge Connectivity & Communication Protocols
