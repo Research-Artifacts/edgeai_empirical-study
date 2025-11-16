@@ -21,8 +21,8 @@ for execution.
 
 Once your environment is ready, you can proceed with the data collection workflow.
 
-➡️ The full guide for running the **data collection and processing scripts** is available in
-**[data_collection/README.md](./data_collection/README.md)**.
+➡️ The full guide for running the **data collection and processing scripts** is available in 
+**[README.md](./data_collection/README.md)**.
 
 ---
 
