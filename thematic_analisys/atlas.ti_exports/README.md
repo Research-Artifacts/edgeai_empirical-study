@@ -106,9 +106,11 @@ replicated**.
     >>  - and replication.
     >
     > _Coefficient_
-    >> - A normalized co-occurrence matrix calculated by **ATLAS.ti** using similarity coefficients (e.g., Jaccard-based 
-    > metrics). Values range from 0 to 1 and represent the relative strength of association between code pairs
-[c = \frac{n_{12}}{(n_1 + n_2 - n_{12})}]
+    >> - A normalized co-occurrence matrix calculated by **ATLAS.ti** using similarity coefficients<sup>1</sup>. Values 
+    range from 0 to 1 and represent the relative strength of association between code pairs 
+
+<sup>1</sup> c = n12 / (n1 + n2 - n12)
+
 
 
 - **Purpose**
