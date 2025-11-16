@@ -74,7 +74,6 @@ Below you will find an overview of each file and a detailed description of its s
 ---
 ### 1.2 [software_architecture_documented_projects.csv](./software_architecture_documented_projects.csv)
 
-
 - **Description**
 
     During the initial mining and filtering phases, repositories were screened to determine whether they included 
@@ -212,6 +211,7 @@ Below you will find an overview of each file and a detailed description of its s
     | **quality_attributes**   | Mapping to quality attributes based on the ISO/IEC 25010. |
     | **fragments_source**     | Path of the file where the fragment was found .           |
 
+
 - **How to Use This File**:
 
   * Cross-checking with coding files
@@ -225,83 +225,74 @@ Below you will find an overview of each file and a detailed description of its s
 
 ### 1.5 [codes.csv](./codes.csv)
 
+- **Description**
+
+    After selecting the relevant fragments (`fragments_used.csv`), researchers performed *inductive open coding* —reading 
+    each fragment, identifying significant ideas, and assigning codes that describe the underlying architectural concepts.
+
+
 - **Purpose**
 
     This file contains the *complete set of codes* generated during the open coding phase of the thematic analysis.
     Each code represents a meaningful conceptual label assigned to one or more architectural fragments, capturing 
-    patterns, concerns, strategies, constraints, or design decisions observed across EdgeAI repositories.
+    patterns, concerns, strategies, constraints, or design decisions observed across Edge AI repositories.
 
-    `codes.csv` is a fundamental artifact because it documents the **intermediate analytical layer** between raw fragments and higher-level categories/themes.
-
-  - **Description**
-
-  After selecting the relevant fragments (`fragments_used.csv`), researchers performed *inductive open coding* —reading 
-  each fragment, identifying significant ideas, and assigning codes that describe the underlying architectural concepts.
-
-> This file stores:
-> * All codes created during the analysis
-> * Their relationship to individual fragments
-> * Preliminary grouping hints
-> * Notes supporting interpretation
-
-
+  
 - **Column Definitions**
     
     | Column Name           | Description                                                                    |
     |-----------------------|--------------------------------------------------------------------------------|
     | **code_ID**           | Unique identifier for each code.                                               |
     | **code**              | The name of the code, representing a conceptual idea extracted from fragments. |
-    | **#_of_occurrences**  | Number of occurrences of the code.                                             |
+    | **#_occur**           | Number of occurrences of the code.                                             |
     | **theme**             | Associated theme with the code.                                                |
     | **theme_ID**          | Unique identifier for each theme.                                              |
     | **high-order_themes** | Higher-order themes that underpin the sets of guidelines.                      |
 
+
 - **How to Use This File**:
 
-  * Reconstruct the coding process
-  * Validate consistency across coders
   * Inspect how concepts emerged from raw data
-  * Conduct further analyses (e.g., frequency counts, co-occurrence analysis)
-  * Support transparency for replication packages submitted to conferences such as ICSA/ICSE
+  * Conduct further analyses
+  * Support transparency for replication packages
 
-It is the main dataset feeding the subsequent **category formation** and **theme/guideline synthesis** phases.
-This dataset is essential for transparency and enables external researchers to review or reproduce the coding logic.
+> It is the main dataset feeding the subsequent **category formation** and **theme/guideline synthesis** phases.
 
 ---
 
 
 ### 1.6 [themes.csv](./themes.csv)
 
-- **Purpose**
-
-    This file contains the *higher-level themes* produced after grouping and synthesizing the open codes (`codes.csv`).
-    Themes represent the **architectural guidelines**, concerns, or recurring patterns discovered across EdgeAI 
-    repositories, and they serve as the conceptual backbone of the study’s findings.
-
-    `themes.csv` therefore captures the final abstraction step before producing guideline families and architectural 
-    recommendations.
-
 - **Description**
 
     During the thematic analysis, codes were grouped into meaningful clusters based on conceptual similarity, 
-    co-occurrence patterns, and relevance to EdgeAI architectural practices. Each cluster was then synthesized into a 
+    co-occurrence patterns, and relevance to Edge AI architectural practices. Each cluster was then synthesized into a 
     *theme*, which captures:
 
-  * A broader architectural insight
-  * The underlying design concern addressed by several codes
-  * The shared intent behind different implementations across repositories
-  * A generalizable pattern or principle
+    * A broader architectural insight
+    * The underlying design concern addressed by several codes
+    * The shared intent behind different implementations across repositories
+    * A generalizable pattern or principle
 
-This file contains the finalized set of themes that emerged from this synthesis.
 
+- **Purpose**
+
+    This file contains the *higher-level themes* produced after grouping and synthesizing the open codes (`codes.csv`).
+    Themes represent the **architectural guidelines**, concerns, or recurring patterns discovered across Edge AI 
+    repositories, and they serve as the conceptual backbone of the study’s findings.
+
+  
 - **Column Definitions**
     
-    | Column Name                     | Description                                                                    |
-    |---------------------------------|--------------------------------------------------------------------------------|
-    | **theme_ID**                    | Unique identifier for each theme.                                              |
-    | **theme (m2m/edge_literature)** | Concise name for theme based on M2M - _Machine-to-Machine_ and IoT literature. |
-    | **high-order_themes**           | Higher-order themes that underpin the sets of guidelines.                      |
-    | **capabilities (ISO 30141)**    | Mapping to capabilities based on the ISO/IEC 30141:2024.                       |
+    | Column Name                     | Description                                                 |
+    |---------------------------------|-------------------------------------------------------------|
+    | **theme_ID**                    | Unique identifier for each theme.                           |
+    | **theme (m2m/edge_literature)** | Concise name for theme based on M2M[ˆ1] and IoT literature. |
+    | **high-order_themes**           | Higher-order themes that underpin the sets of guidelines.   |
+    | **capabilities (ISO 30141)**    | Mapping to capabilities based on the ISO/IEC 30141:2024.    |
+
+
+[ˆ1]: _Machine-to-Machine_
 
 - **How to Use This File**:
 
@@ -311,7 +302,8 @@ This file contains the finalized set of themes that emerged from this synthesis.
   * Compare themes across repositories, domains, or quality attributes
   * Support guideline creation, survey design, and cross-analysis
 
-This file is critical for ensuring transparency and reproducibility in the final guideline derivation.
+
+> This file is critical for ensuring transparency and reproducibility in the final guideline derivation.
 
 ---
 
