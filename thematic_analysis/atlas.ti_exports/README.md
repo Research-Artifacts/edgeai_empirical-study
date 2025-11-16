@@ -161,19 +161,19 @@ replicated**.
 
 | Column                | Description                                                               |
 |-----------------------|---------------------------------------------------------------------------|
-| **Number**            | Unique quotation identifier (e.g., 1:1).                                  |
-| **Reference**         | Paragraph marker in the source document.                                  |
-| **Name**              | Optional label (usually empty for raw fragments).                         |
-| **Text Content**      | The full text of the extracted fragment.                                  |
-| **Document**          | Source document name (e.g., “[ATLAS] – Codifying Fragments”).             |
-| **Codes**             | List of all codes applied to the fragment.                                |
-| **Number of Codes**   | Total number of codes associated with the fragment.                       |
-| **Comment**           | Researcher notes or analytic memos.                                       |
-| **Initial Position**  | Start coordinate of the quotation in the source document.                 |
-| **Final Position**    | End coordinate.                                                           |
-| **Extensão**          | Length of the quotation (characters or lines depending on configuration). |
-| **Creation Date**     | When the fragment was created during coding.                              |
-| **Modification Date** | When it was last updated.                                                 |
+| **Number**            | Unique quotation identifier (e.g., 1:1)                                   |
+| **Reference**         | Paragraph marker in the source document                                   |
+| **Name**              | Optional label (usually empty for raw fragments)                          |
+| **Text Content**      | The full text of the extracted fragment                                   |
+| **Document**          | Source document name (e.g., “[ATLAS] – Codifying Fragments”)              |
+| **Codes**             | List of all codes applied to the fragment                                 |
+| **Number of Codes**   | Total number of codes associated with the fragment                        |
+| **Comment**           | Researcher notes or analytic memos                                        |
+| **Initial Position**  | Start coordinate of the quotation in the source document                  |
+| **Final Position**    | End coordinate                                                            |
+| **Extensão**          | Length of the quotation (characters or lines depending on configuration)  |
+| **Creation Date**     | When the fragment was created during coding                               |
+| **Modification Date** | When it was last updated                                                  |
 
 
 - **Usage:**  
@@ -203,11 +203,11 @@ replicated**.
     
     | Column                           | Description                                                               |
     |----------------------------------|---------------------------------------------------------------------------|
-    | **Code**                         | The theme name (e.g., “T1. Edge Connectivity & Communication Protocols”). |
-    | **Magnitude Degree**             | Total number of quotations associated with that theme.                    |
-    | **Density**                      | Number of relationships with other codes (0 for themes, unless linked).   |
-    | **Groups**                       | Code group classification (“Themes”).                                     |
-    | **Number of Groups**             | Count of groups the theme belongs to.                                     |
-    | **Comment**                      | Any memo associated with the theme (empty here).                          |
-    | **Creation/Modification Dates**  | Metadata recorded during coding.                                          |
+    | **Code**                         | The theme name (e.g., “T1. Edge Connectivity & Communication Protocols”)  |
+    | **Magnitude Degree**             | Total number of quotations associated with that theme                     |
+    | **Density**                      | Number of relationships with other codes (0 for themes, unless linked)    |
+    | **Groups**                       | Code group classification (“Themes”)                                      |
+    | **Number of Groups**             | Count of groups the theme belongs to                                      |
+    | **Comment**                      | Any memo associated with the theme (empty here)                           |
+    | **Creation/Modification Dates**  | Metadata recorded during coding                                           |
 

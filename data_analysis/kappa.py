@@ -10,7 +10,7 @@ Purpose:
 import pandas as pd
 from sklearn.metrics import cohen_kappa_score
 
-FILE = "/Users/jan/laboratory/research/edgeai.empirical-study.replication-package/data_analisys/dataset/Capabilities.csv"
+FILE = "/data_analysis/dataset/Capabilities.csv"
 
 def clean_column(series):
     """Replace NaNs by a placeholder so sklearn can process."""
