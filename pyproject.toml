@@ -2,7 +2,7 @@
 name = "edgeai-empirical-study-replication-package"
 version = "0.1.0"
 description = "Replication package for EdgeAI empirical study"
-authors = ["Jander Pereira Santos Júnior <jandersantos@ufba.br>"]
+authors = ["Jander <XXXX@ufba.br>"]
 readme = "README.md"
 packages = [{ include = "edgeai" }]
 
@@ -19,31 +19,3 @@ scikit-learn = "^1.7.2"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-#[project]
-#name = "edgeai-empirical-study-replication-package"
-#version = "0.1.0"
-#description = ""
-#authors = [
-#    {name = "",email = ""}
-#]
-#
-#
-#readme = "README.md"
-#requires-python = ">=3.13"
-#dependencies = [
-#    "requests (>=2.32.5,<3.0.0)",
-#    "dotenv (>=0.9.9,<0.10.0)",
-#    "numpy (>=2.3.4,<3.0.0)",
-#    "pandas (>=2.3.3,<3.0.0)",
-#    "matplotlib (>=3.10.7,<4.0.0)",
-#    "langdetect (>=1.0.9,<2.0.0)"
-#]
-#
-#[tool.poetry]
-#packages = [{include = "edgeai"}]
-#
-#
-#[build-system]
-#requires = ["poetry-core>=2.0.0,<3.0.0"]
-#build-backend = "poetry.core.masonry.api"
