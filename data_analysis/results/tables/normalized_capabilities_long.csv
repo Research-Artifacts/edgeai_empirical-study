@@ -1,0 +1,538 @@
+id,repo_name,slot,cap_specific,iso_raw,iso,layer_raw,layer,weight
+R002,magistrala,1,Multi-Protocol IoT Communication Broker,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R002,magistrala,2,"Identity, Authentication & Authorization Management",Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R002,magistrala,3,Scalable Microservices IoT Platform,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R003,supermq,1,Multi-Protocol IoT Messaging Broker,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R003,supermq,2,Identity & Access Management for IoT,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R003,supermq,3,Scalable Microservices Architecture for IoT,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R007,aXeleRate,1,Model Training & Auto-Conversion,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R007,aXeleRate,1,Model Training & Auto-Conversion,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R007,aXeleRate,2,Multi-Format Hardware Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R007,aXeleRate,2,Multi-Format Hardware Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R007,aXeleRate,3,Configurable Workflow & Versioning,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R007,aXeleRate,3,Configurable Workflow & Versioning,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R009,zilla,1,Event-Driven API Gateway for IoT/Edge,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R009,zilla,2,Multi-Protocol Event Streaming Integration,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R009,zilla,3,Low-Latency Edge Data Proxying,Data Capabilities,Data Capabilities,Continuum,Cross-cutting,1.0
+R013,heartkit,1,On-Device Biomedical Signal Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R013,heartkit,1,On-Device Biomedical Signal Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R013,heartkit,2,Low-Power AI Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R013,heartkit,2,Low-Power AI Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R013,heartkit,3,Health Data Preprocessing & Model Lifecycle,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R013,heartkit,3,Health Data Preprocessing & Model Lifecycle,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R015,sleepkit,1,On-Device Sleep Stage Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R015,sleepkit,1,On-Device Sleep Stage Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R015,sleepkit,2,Low-Power TinyML Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R015,sleepkit,2,Low-Power TinyML Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R015,sleepkit,3,End-to-End ML Pipeline for Biomedical IoT,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R015,sleepkit,3,End-to-End ML Pipeline for Biomedical IoT,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R016,ai8x-synthesis,1,Model Quantization & Synthesis,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R016,ai8x-synthesis,1,Model Quantization & Synthesis,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R016,ai8x-synthesis,2,Edge Hardware Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R016,ai8x-synthesis,2,Edge Hardware Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R016,ai8x-synthesis,3,Toolchain Integration & Automation,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R016,ai8x-synthesis,3,Toolchain Integration & Automation,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R017,ai8x-training,1,Model Training & Preparation,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R017,ai8x-training,1,Model Training & Preparation,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R017,ai8x-training,2,Hardware-Aware Model Constraint Handling,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R017,ai8x-training,2,Hardware-Aware Model Constraint Handling,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R017,ai8x-training,3,AutoML / Training Workflow Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R017,ai8x-training,3,AutoML / Training Workflow Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R018,MaximAI_Documentation,1,TinyML Deployment for Resource-Constrained MCUs,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R018,MaximAI_Documentation,1,TinyML Deployment for Resource-Constrained MCUs,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R018,MaximAI_Documentation,2,"Model Training, Quantization & Synthesis Workflow",Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R018,MaximAI_Documentation,2,"Model Training, Quantization & Synthesis Workflow",Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R018,MaximAI_Documentation,3,Domain-Specific Edge AI (Vision & Speech),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R018,MaximAI_Documentation,3,Domain-Specific Edge AI (Vision & Speech),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R022,aws-iot-fleetwise-edge,1,Intelligent Data Collection & Remote Commands,Data Capabilities,Data Capabilities,Edge ↔ fog,Edge,0.5
+R022,aws-iot-fleetwise-edge,1,Intelligent Data Collection & Remote Commands,Data Capabilities,Data Capabilities,Edge ↔ fog,Fog,0.5
+R022,aws-iot-fleetwise-edge,2,Store-and-Forward with Edge Buffering,Data Capabilities,Data Capabilities,Edge ↔ fog,Edge,0.5
+R022,aws-iot-fleetwise-edge,2,Store-and-Forward with Edge Buffering,Data Capabilities,Data Capabilities,Edge ↔ fog,Fog,0.5
+R022,aws-iot-fleetwise-edge,3,Secure MQTT Communication,Interface Capability,Interface Capability,Edge ↔ fog,Edge,0.5
+R022,aws-iot-fleetwise-edge,3,Secure MQTT Communication,Interface Capability,Interface Capability,Edge ↔ fog,Fog,0.5
+R023,dem,1,Declarative DevEnv Orchestration,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Edge,0.5
+R023,dem,1,Declarative DevEnv Orchestration,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Fog,0.5
+R023,dem,2,Template & Registry Integration,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Edge,0.5
+R023,dem,2,Template & Registry Integration,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Fog,0.5
+R023,dem,3,Portable Containerized Tooling,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Edge,0.5
+R023,dem,3,Portable Containerized Tooling,Supporting Capabilities,Supporting Capabilities,Edge ↔ fog,Fog,0.5
+R024,azure-iot-edge-identity-translation-lite,1,Identity Translation Gateway,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R024,azure-iot-edge-identity-translation-lite,2,Protocol Translation Fabricação,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R024,azure-iot-edge-identity-translation-lite,3,Dynamic Device Provisioning (Cloud),Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R025,edge-aio-in-a-box,1,Automated Azure Edge Provisioning,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R025,edge-aio-in-a-box,2,Edge AI Model Lifecycle Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R025,edge-aio-in-a-box,3,Interactive Edge Testing & Inference,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R028,AI-in-a-Box,1,Deployment Acceleration,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R028,AI-in-a-Box,1,Deployment Acceleration,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R028,AI-in-a-Box,2,Responsible AI / Security,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R028,AI-in-a-Box,2,Responsible AI / Security,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R028,AI-in-a-Box,3,Scalability,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R028,AI-in-a-Box,3,Scalability,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R029,azure-iotedge,1,Edge Module Orchestration & Runtime Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R029,azure-iotedge,1,Edge Module Orchestration & Runtime Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R029,azure-iotedge,2,Local Communication & Store-and-Forward Routing,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R029,azure-iotedge,2,Local Communication & Store-and-Forward Routing,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R029,azure-iotedge,3,Secure Identity & Runtime Integrity,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R029,azure-iotedge,3,Secure Identity & Runtime Integrity,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R031,iotedge,1,Containerized Workload Orchestration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R031,iotedge,2,Local Secure Communication & Store-and-Forward,Data Capabilities,Data Capabilities,Continuum,Cross-cutting,1.0
+R031,iotedge,3,Cloud-Integrated Device Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R032,iotedge-eflow,1,Cross-Platform Edge Runtime Hosting,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R032,iotedge-eflow,2,Containerized Workload Execution & Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R032,iotedge-eflow,3,Cloud-Integrated Device Orchestration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R033,iotedge-lorawan-starterkit,1,Protocol Translation Gateway,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R033,iotedge-lorawan-starterkit,2,Edge Network Server for LoRaWAN,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R033,iotedge-lorawan-starterkit,3,Cloud-Integrated Device & Data Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R035,KAN,1,Efficient Model Training & Inference,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R035,KAN,2,Explainable & Interpretable AI Models,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R035,KAN,3,Cross-Domain Deployment Flexibility,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R037,baetyl,1,Edge-Cloud Declarative Orchestration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R037,baetyl,2,Modular Edge Runtime & OTA Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R037,baetyl,3,Lightweight Messaging Middleware,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R040,Olares,1,Local-First AI Application Hosting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R040,Olares,1,Local-First AI Application Hosting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R040,Olares,2,Decentralized AI App Marketplace,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R040,Olares,2,Decentralized AI App Marketplace,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R040,Olares,3,Application Orchestration & Management at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R040,Olares,3,Application Orchestration & Management at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R047,JAMScript,1,Unified Programming Model,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R047,JAMScript,1,Unified Programming Model,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R047,JAMScript,2,Reactive Runtime & Hierarchical Orchestration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R047,JAMScript,2,Reactive Runtime & Hierarchical Orchestration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R047,JAMScript,3,Distributed Device Collaboration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R047,JAMScript,3,Distributed Device Collaboration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R048,FogBus2,1,Integrated Fog-Cloud Resource Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R048,FogBus2,1,Integrated Fog-Cloud Resource Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R048,FogBus2,2,Secure Data Management & Authentication,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R048,FogBus2,2,Secure Data Management & Authentication,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R048,FogBus2,3,QoS-aware Task Scheduling & Monitoring,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R048,FogBus2,3,QoS-aware Task Scheduling & Monitoring,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R049,tflite_beam,1,On-Device ML Inference via TensorFlow Lite,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R049,tflite_beam,1,On-Device ML Inference via TensorFlow Lite,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R049,tflite_beam,2,Integration of ML into Distributed BEAM Ecosystem,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R049,tflite_beam,2,Integration of ML into Distributed BEAM Ecosystem,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R049,tflite_beam,3,Cross-Platform Edge Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R049,tflite_beam,3,Cross-Platform Edge Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R050,tflite_elixir,1,On-Device ML Inference with TensorFlow Lite,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R050,tflite_elixir,1,On-Device ML Inference with TensorFlow Lite,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R050,tflite_elixir,2,Elixir Integration for Edge AI Applications,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R050,tflite_elixir,2,Elixir Integration for Edge AI Applications,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R050,tflite_elixir,3,Cross-Platform Edge Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R050,tflite_elixir,3,Cross-Platform Edge Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R051,BitNetMCU,1,Low-Bit Model Quantization & Inference on MCU,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R051,BitNetMCU,1,Low-Bit Model Quantization & Inference on MCU,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R051,BitNetMCU,2,TinyML Training & Export Pipeline,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R051,BitNetMCU,2,TinyML Training & Export Pipeline,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R051,BitNetMCU,3,Hardware-Aware Efficiency Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R051,BitNetMCU,3,Hardware-Aware Efficiency Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R055,motion-ai,1,On-Device Video Analytics & AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R055,motion-ai,1,On-Device Video Analytics & AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R055,motion-ai,2,Hardware-Accelerated Inference for Vision,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R055,motion-ai,2,Hardware-Accelerated Inference for Vision,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R055,motion-ai,3,Event-Driven IoT Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R055,motion-ai,3,Event-Driven IoT Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R056,leapfrogai,1,Secure Local LLM Serving,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R056,leapfrogai,2,Auditable & Observable AI Inference,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R056,leapfrogai,3,Kubernetes-Native Deployment in Air-Gapped Environments,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R058,UA-EdgeHEMS,1,Edge-Based Energy Management & Optimization,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R058,UA-EdgeHEMS,2,Device Interoperability via OPC UA,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R058,UA-EdgeHEMS,3,Digital Twin for Predictive Control & Monitoring,Data Capabilities,Data Capabilities,Continuum,Cross-cutting,1.0
+R060,NanoLLM,1,On-Device LLM Inference with GPU Acceleration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R060,NanoLLM,1,On-Device LLM Inference with GPU Acceleration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R060,NanoLLM,2,Optimized Resource Utilization for Edge AI,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R060,NanoLLM,2,Optimized Resource Utilization for Edge AI,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R060,NanoLLM,3,Offline & Private AI Assistant at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R060,NanoLLM,3,Offline & Private AI Assistant at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R061,kura,1,Edge Gateway Device & Network Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R061,kura,2,"Data Collection, Buffering & Filtering",Data Capabilities,Data Capabilities,Continuum,Cross-cutting,1.0
+R061,kura,3,Cloud Connectivity & Remote Lifecycle Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R063,edgehog,1,OTA Lifecycle & Fleet Control,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R063,edgehog,2,Remote Docker Application Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R063,edgehog,3,Dynamic Fleet Grouping & Geolocation,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R064,edgehog-device-runtime,1,Comprehensive Telemetry Reporting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R064,edgehog-device-runtime,1,Comprehensive Telemetry Reporting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R064,edgehog-device-runtime,2,OTA Management & State Control,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R064,edgehog-device-runtime,2,OTA Management & State Control,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R064,edgehog-device-runtime,3,Container Service Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R064,edgehog-device-runtime,3,Container Service Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R082,edgen,1,Local Modular GenAI Serving,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R082,edgen,1,Local Modular GenAI Serving,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R082,edgen,2,Hardware-Adaptive Inference Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R082,edgen,2,Hardware-Adaptive Inference Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R082,edgen,3,Cross-Platform Native Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R082,edgen,3,Cross-Platform Native Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R083,shifu,1,Device Virtualization & Digital Twin,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R083,shifu,2,Protocol Interoperability & Integration,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R083,shifu,3,Kubernetes-Native Orchestration of IoT Devices,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R084,evio,1,Virtualized Overlay Networking,Interface Capability,Interface Capability,edge ↔ fog,Edge,0.5
+R084,evio,1,Virtualized Overlay Networking,Interface Capability,Interface Capability,edge ↔ fog,Fog,0.5
+R084,evio,2,Decentralized SDN Control & Peer Discovery,Interface Capability,Interface Capability,edge ↔ fog,Edge,0.5
+R084,evio,2,Decentralized SDN Control & Peer Discovery,Interface Capability,Interface Capability,edge ↔ fog,Fog,0.5
+R084,evio,3,Secure Peer-to-Peer Tunneling,Interface Capability,Interface Capability,edge ↔ fog,Edge,0.5
+R084,evio,3,Secure Peer-to-Peer Tunneling,Interface Capability,Interface Capability,edge ↔ fog,Fog,0.5
+R088,emlearn,1,Portable C99 TinyML Engine,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R088,emlearn,1,Portable C99 TinyML Engine,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R088,emlearn,2,Python-to-Embedded Workflow Bridge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R088,emlearn,2,Python-to-Embedded Workflow Bridge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R088,emlearn,3,Platform-Agnostic Compatibility,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R088,emlearn,3,Platform-Agnostic Compatibility,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R091,nn-comp,1,Model Compilation & Code Generation for Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R091,nn-comp,1,Model Compilation & Code Generation for Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R091,nn-comp,2,Optimization & Quantization for Resource Efficiency,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R091,nn-comp,2,Optimization & Quantization for Resource Efficiency,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R091,nn-comp,3,Cross-Framework & Cross-Hardware Interoperability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R091,nn-comp,3,Cross-Framework & Cross-Hardware Interoperability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R092,GPT-Telegramus,1,Service/Protocol Interoperability Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R092,GPT-Telegramus,1,Service/Protocol Interoperability Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R092,GPT-Telegramus,2,Access Control & Operational Telemetry,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R092,GPT-Telegramus,2,Access Control & Operational Telemetry,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R092,GPT-Telegramus,3,Containerized Deployment & Portability,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R092,GPT-Telegramus,3,Containerized Deployment & Portability,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R093,fabedge,1,Secure Cloud-Edge & Edge-Edge Overlay Networking,Interface Capability,Interface Capability,edge ↔ fog,Edge,0.5
+R093,fabedge,1,Secure Cloud-Edge & Edge-Edge Overlay Networking,Interface Capability,Interface Capability,edge ↔ fog,Fog,0.5
+R093,fabedge,2,Automatic Configuration & Topology-Aware Discovery,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R093,fabedge,2,Automatic Configuration & Topology-Aware Discovery,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R093,fabedge,3,Kubernetes-Native Multi-Cluster Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R093,fabedge,3,Kubernetes-Native Multi-Cluster Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R095,fledge,1,Edge Data Ingestion & Preprocessing,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R095,fledge,1,Edge Data Ingestion & Preprocessing,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R095,fledge,2,Plugin-based Northbound/Southbound Connectivity,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R095,fledge,2,Plugin-based Northbound/Southbound Connectivity,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R095,fledge,3,Edge Analytics & Closed-Loop Control,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R095,fledge,3,Edge Analytics & Closed-Loop Control,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R096,pipy,1,Programmable Network Proxy & Pipelines,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R096,pipy,1,Programmable Network Proxy & Pipelines,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R096,pipy,2,Service Mesh & API Gateway Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R096,pipy,2,Service Mesh & API Gateway Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R096,pipy,3,Lightweight High-Performance Networking,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R096,pipy,3,Lightweight High-Performance Networking,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R098,trusted-connector,1,Secure Data Exchange Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R098,trusted-connector,1,Secure Data Exchange Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R098,trusted-connector,2,Data Sovereignty & Policy Enforcement,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R098,trusted-connector,2,Data Sovereignty & Policy Enforcement,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R098,trusted-connector,3,Trusted Execution & Compliance Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R098,trusted-connector,3,Trusted Execution & Compliance Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R101,solo-server,1,Biomedical IoT Data Aggregation & Storage,Data Capabilities,Data Capabilities,edge ↔ Cloud,Edge,0.5
+R101,solo-server,1,Biomedical IoT Data Aggregation & Storage,Data Capabilities,Data Capabilities,edge ↔ Cloud,Cloud,0.5
+R101,solo-server,2,APIs for Health Data Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R101,solo-server,2,APIs for Health Data Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R101,solo-server,3,User & Device Management for IoT Healthcare,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R101,solo-server,3,User & Device Management for IoT Healthcare,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R105,LiteRT,1,Lightweight On-Device Inference Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R105,LiteRT,1,Lightweight On-Device Inference Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R105,LiteRT,2,Hardware-Accelerated ML Execution,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R105,LiteRT,2,Hardware-Accelerated ML Execution,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R105,LiteRT,3,Cross-Platform Portability & Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R105,LiteRT,3,Cross-Platform Portability & Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R116,inngest,1,Event-Driven Orchestration,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R116,inngest,1,Event-Driven Orchestration,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R116,inngest,2,Resilient Task Scheduling & State Management,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R116,inngest,2,Resilient Task Scheduling & State Management,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R116,inngest,3,Cross-Environment Portability,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R116,inngest,3,Cross-Environment Portability,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R120,AiCSD,1,Edge Data Pipeline & Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Edge,0.5
+R120,AiCSD,1,Edge Data Pipeline & Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Fog,0.5
+R120,AiCSD,2,Monitoring & Log Analytics,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R120,AiCSD,2,Monitoring & Log Analytics,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R120,AiCSD,3,Secure Coordination & Communication,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R120,AiCSD,3,Secure Coordination & Communication,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R121,compage,1,Low-Code Cloud-to-Edge App Generation,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R121,compage,1,Low-Code Cloud-to-Edge App Generation,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R121,compage,2,Supply Chain Security & SBOM Automation,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R121,compage,2,Supply Chain Security & SBOM Automation,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R121,compage,3,Multi-Platform Orchestration & Deployment,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Fog,0.5
+R121,compage,3,Multi-Platform Orchestration & Deployment,Supporting Capabilities,Supporting Capabilities,fog ↔ cloud,Cloud,0.5
+R123,AISonobuoy,1,Edge Data Pipeline & Processing,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R123,AISonobuoy,1,Edge Data Pipeline & Processing,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R123,AISonobuoy,2,Automated Data Collection & Labeling,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R123,AISonobuoy,2,Automated Data Collection & Labeling,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R123,AISonobuoy,3,Low-Power Edge Inference & Alerting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R123,AISonobuoy,3,Low-Power Edge Inference & Alerting,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R124,BirdsEye,1,Lightweight RL-based RF Localization,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R124,BirdsEye,1,Lightweight RL-based RF Localization,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R124,BirdsEye,2,Compute-Efficient Training & Inference,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R124,BirdsEye,2,Compute-Efficient Training & Inference,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R124,BirdsEye,3,Simulation-Driven Edge Modeling,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R124,BirdsEye,3,Simulation-Driven Edge Modeling,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R126,jevois,1,On-Device Vision AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R126,jevois,1,On-Device Vision AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R126,jevois,2,Modular Edge AI Framework,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R126,jevois,2,Modular Edge AI Framework,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R126,jevois,3,Real-Time Video Processing & Output,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R126,jevois,3,Real-Time Video Processing & Output,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R129,DeepStack,1,Local AI Serving (Offline Edge Inference),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R129,DeepStack,1,Local AI Serving (Offline Edge Inference),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R129,DeepStack,2,Cross-Platform Flexibility,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R129,DeepStack,2,Cross-Platform Flexibility,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R129,DeepStack,3,Secure & Scalable API Management,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R129,DeepStack,3,Secure & Scalable API Management,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R130,AI-on-the-edge-device,1,Edge Processing,Data capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R130,AI-on-the-edge-device,1,Edge Processing,Data capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R130,AI-on-the-edge-device,2,Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R130,AI-on-the-edge-device,2,Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R130,AI-on-the-edge-device,3,Device Management & Updatability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R130,AI-on-the-edge-device,3,Device Management & Updatability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R131,AI-on-the-edge-device-docs,1,Edge Processing,Data capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R131,AI-on-the-edge-device-docs,1,Edge Processing,Data capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R131,AI-on-the-edge-device-docs,2,Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R131,AI-on-the-edge-device-docs,2,Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R131,AI-on-the-edge-device-docs,3,Device Management & Updatability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R131,AI-on-the-edge-device-docs,3,Device Management & Updatability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R134,SydneyQt,1,AI Service Interoperability Client,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R134,SydneyQt,2,Cross-Platform Lightweight Interface,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R134,SydneyQt,3,User-to-Cloud Interaction Gateway,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R137,keylime,1,Remote Attestation & Integrity Verification,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R137,keylime,2,Secure Provisioning & Key Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R137,keylime,3,Cross-Layer Security & Compliance,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R138,kubeedge,1,Cloud-Edge Application Orchestration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R138,kubeedge,2,Secure Edge Communication & Digital Twin,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R138,kubeedge,3,IoT Device Integration & Event Routing,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R141,edge-home-orchestration-go,1,Dynamic Service Offloading & Load Balancing,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R141,edge-home-orchestration-go,1,Dynamic Service Offloading & Load Balancing,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R141,edge-home-orchestration-go,2,Distributed Device Discovery & Scheduling,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R141,edge-home-orchestration-go,2,Distributed Device Discovery & Scheduling,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R141,edge-home-orchestration-go,3,Container-based Application Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R141,edge-home-orchestration-go,3,Container-based Application Deployment,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R142,ekuiper,1,Lightweight Stream Processing & Rule Engine,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R142,ekuiper,1,Lightweight Stream Processing & Rule Engine,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R142,ekuiper,2,Highly Extensible Connectivity Framework,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R142,ekuiper,2,Highly Extensible Connectivity Framework,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R142,ekuiper,3,Management Dashboard & API-based Control,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R142,ekuiper,3,Management Dashboard & API-based Control,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R143,eve,1,Secure Edge Virtualization & Isolation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R143,eve,1,Secure Edge Virtualization & Isolation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R143,eve,2,Remote Orchestration & Lifecycle Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R143,eve,2,Remote Orchestration & Lifecycle Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R143,eve,3,Zero-Trust Security & Device Integrity,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R143,eve,3,Zero-Trust Security & Device Integrity,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R146,TPI-LLM,1,Distributed LLM Inference with Tensor Parallelism,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R146,TPI-LLM,1,Distributed LLM Inference with Tensor Parallelism,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R146,TPI-LLM,2,Scalable Multi-Device AI Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R146,TPI-LLM,2,Scalable Multi-Device AI Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R146,TPI-LLM,3,High-Performance NLP/LLM Serving,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R146,TPI-LLM,3,High-Performance NLP/LLM Serving,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R147,hal-9100,1,Application Hosting & Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R147,hal-9100,1,Application Hosting & Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R147,hal-9100,2,Interoperability Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R147,hal-9100,2,Interoperability Gateway,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R147,hal-9100,3,Resource Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R147,hal-9100,3,Resource Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R148,loxilb,1,High-Performance Edge Load Balancing,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R148,loxilb,1,High-Performance Edge Load Balancing,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R148,loxilb,2,Multi-Cluster & Multi-Tenant Networking,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R148,loxilb,2,Multi-Cluster & Multi-Tenant Networking,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R148,loxilb,3,Security & Resilience (DDoS Protection),Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R148,loxilb,3,Security & Resilience (DDoS Protection),Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R149,luos_engine,1,Modular Microservice Architecture,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R149,luos_engine,1,Modular Microservice Architecture,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R149,luos_engine,2,Dynamic Service Discovery & Communication,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R149,luos_engine,2,Dynamic Service Discovery & Communication,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R149,luos_engine,3,Distributed IoT System Scalability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R149,luos_engine,3,Distributed IoT System Scalability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R150,macchina.io,1,Edge Gateway Device & Protocol Integration,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R150,macchina.io,2,Web-Enabled Service Exposure,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R150,macchina.io,3,Remote Application Management & Extensibility,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R151,microflow-rs,1,Lightweight Stream Processing Runtime,Data Capabilities,Data Capabilities,device ↔ edge,Device,0.5
+R151,microflow-rs,1,Lightweight Stream Processing Runtime,Data Capabilities,Data Capabilities,device ↔ edge,Edge,0.5
+R151,microflow-rs,2,Reactive Dataflow & Event Handling,Data Capabilities,Data Capabilities,device ↔ edge,Device,0.5
+R151,microflow-rs,2,Reactive Dataflow & Event Handling,Data Capabilities,Data Capabilities,device ↔ edge,Edge,0.5
+R151,microflow-rs,3,Embedded-Friendly Portability,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R151,microflow-rs,3,Embedded-Friendly Portability,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R152,tokay-lite-sdk,1,Lightweight SDK for IoT/Edge AI,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R152,tokay-lite-sdk,1,Lightweight SDK for IoT/Edge AI,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R152,tokay-lite-sdk,2,On-Device AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R152,tokay-lite-sdk,2,On-Device AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R152,tokay-lite-sdk,3,IoT Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R152,tokay-lite-sdk,3,IoT Connectivity & Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R153,azure_arc,1,Unified Hybrid Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R153,azure_arc,2,GitOps & Policy-based Configuration at Scale,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R153,azure_arc,3,Unified Security & Monitoring,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R154,mindspore,1,End-to-End AI Lifecycle (Cloud–Edge–Device),Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R154,mindspore,2,Lightweight Edge Inference (MindSpore Lite),Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R154,mindspore,3,Privacy-Preserving Federated Learning,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R162,xsai,1,On-Device LLM Inference (Offline-First),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R162,xsai,1,On-Device LLM Inference (Offline-First),Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R162,xsai,2,Decentralized & Privacy-Preserving AI,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R162,xsai,2,Decentralized & Privacy-Preserving AI,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R162,xsai,3,Unified Runtime for Multiple Models,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R162,xsai,3,Unified Runtime for Multiple Models,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R163,montithings,1,Model-Driven IoT/Edge Application Development,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R163,montithings,1,Model-Driven IoT/Edge Application Development,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R163,montithings,2,Dynamic Deployment & Update at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R163,montithings,2,Dynamic Deployment & Update at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R163,montithings,3,Asynchronous Cross-Device Communication,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R163,montithings,3,Asynchronous Cross-Device Communication,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R166,nabto-embedded-sdk,1,Secure P2P Communication for IoT Devices,Interface Capability,Interface Capability,device ↔ edge,Device,0.5
+R166,nabto-embedded-sdk,1,Secure P2P Communication for IoT Devices,Interface Capability,Interface Capability,device ↔ edge,Edge,0.5
+R166,nabto-embedded-sdk,2,NAT/Firewall Traversal & Connectivity Optimization,Interface Capability,Interface Capability,device ↔ edge,Device,0.5
+R166,nabto-embedded-sdk,2,NAT/Firewall Traversal & Connectivity Optimization,Interface Capability,Interface Capability,device ↔ edge,Edge,0.5
+R166,nabto-embedded-sdk,3,Lightweight Embedded Integration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R166,nabto-embedded-sdk,3,Lightweight Embedded Integration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R167,nanomq,1,Lightweight Edge Messaging Broker,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R167,nanomq,1,Lightweight Edge Messaging Broker,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R167,nanomq,2,Protocol Translation & Interoperability Gateway,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R167,nanomq,2,Protocol Translation & Interoperability Gateway,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R167,nanomq,3,High-Performance & Resource-Efficient Messaging,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R167,nanomq,3,High-Performance & Resource-Efficient Messaging,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R170,edgerunner,1,Universal On-Device AI Runtime Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R170,edgerunner,1,Universal On-Device AI Runtime Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R170,edgerunner,2,Device-Agnostic API Abstraction,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R170,edgerunner,2,Device-Agnostic API Abstraction,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R170,edgerunner,3,Platform-Specific NPU SDK Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R170,edgerunner,3,Platform-Specific NPU SDK Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R182,ai-edge,1,Edge Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Edge,0.5
+R182,ai-edge,1,Edge Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Fog,0.5
+R182,ai-edge,2,Orchestration & Management,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R182,ai-edge,2,Orchestration & Management,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R182,ai-edge,3,Monitoring & Observability,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R182,ai-edge,3,Monitoring & Observability,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R183,microshift,1,Lightweight Kubernetes-Native Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R183,microshift,1,Lightweight Kubernetes-Native Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R183,microshift,2,Cloud-Edge Continuum Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R183,microshift,2,Cloud-Edge Continuum Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R183,microshift,3,Secure Lifecycle & Policy Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R183,microshift,3,Secure Lifecycle & Policy Management,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R184,model_server,1,Scalable AI Model Serving (gRPC/REST),Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R184,model_server,2,Hardware-Accelerated Inference,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R184,model_server,3,Model Lifecycle Management,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R185,openvino_testdrive,1,Reference Pipelines for Edge AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R185,openvino_testdrive,1,Reference Pipelines for Edge AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R185,openvino_testdrive,2,Hardware-Accelerated AI Execution,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R185,openvino_testdrive,2,Hardware-Accelerated AI Execution,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R185,openvino_testdrive,3,Developer Onboarding & Model Evaluation Toolkit,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R185,openvino_testdrive,3,Developer Onboarding & Model Evaluation Toolkit,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R194,executorch,1,End-to-End On-Device AI Workflow,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R194,executorch,1,End-to-End On-Device AI Workflow,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R194,executorch,2,High Portability across Diverse Hardware,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R194,executorch,2,High Portability across Diverse Hardware,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R194,executorch,3,Developer Productivity & Toolchain Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R194,executorch,3,Developer Productivity & Toolchain Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R197,rhel-edge-automation-arch,1,Automated Edge Provisioning & Configuration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R197,rhel-edge-automation-arch,1,Automated Edge Provisioning & Configuration,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R197,rhel-edge-automation-arch,2,OTA Updates & Rollback Management,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R197,rhel-edge-automation-arch,2,OTA Updates & Rollback Management,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R197,rhel-edge-automation-arch,3,GitOps-Driven Orchestration & Compliance,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R197,rhel-edge-automation-arch,3,GitOps-Driven Orchestration & Compliance,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R198,redpanda-edge-agent,1,Edge-to-Cloud Data Streaming,Data Capabilities,Data Capabilities,edge ↔ Cloud,Edge,0.5
+R198,redpanda-edge-agent,1,Edge-to-Cloud Data Streaming,Data Capabilities,Data Capabilities,edge ↔ Cloud,Cloud,0.5
+R198,redpanda-edge-agent,2,Resilient Connectivity in Intermittent Networks,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R198,redpanda-edge-agent,2,Resilient Connectivity in Intermittent Networks,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R198,redpanda-edge-agent,3,Remote Agent Management & Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R198,redpanda-edge-agent,3,Remote Agent Management & Integration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R201,viseron,1,On-Device Video Analytics & AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R201,viseron,1,On-Device Video Analytics & AI Inference,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R201,viseron,2,Hardware-Accelerated Vision Processing,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R201,viseron,2,Hardware-Accelerated Vision Processing,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R201,viseron,3,Event-Driven Smart Home/IoT Integration,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R201,viseron,3,Event-Driven Smart Home/IoT Integration,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R203,salt,1,Scalable Remote Configuration & Automation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R203,salt,1,Scalable Remote Configuration & Automation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R203,salt,2,Real-Time Orchestration & Parallel Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R203,salt,2,Real-Time Orchestration & Parallel Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R203,salt,3,"Security, Compliance & Lifecycle Management",Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R203,salt,3,"Security, Compliance & Lifecycle Management",Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R204,fedn,1,Federated Model Training & Aggregation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R204,fedn,1,Federated Model Training & Aggregation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R204,fedn,2,Scalable Orchestration of Heterogeneous Nodes,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R204,fedn,2,Scalable Orchestration of Heterogeneous Nodes,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R204,fedn,3,Privacy-Preserving Collaboration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R204,fedn,3,Privacy-Preserving Collaboration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R205,ModelAssistant,1,Simplified AI Model Deployment at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R205,ModelAssistant,1,Simplified AI Model Deployment at Edge,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R205,ModelAssistant,2,Multi-Framework & Hardware Interoperability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R205,ModelAssistant,2,Multi-Framework & Hardware Interoperability,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R205,ModelAssistant,3,Model Lifecycle Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R205,ModelAssistant,3,Model Lifecycle Management,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R207,piccolo,1,Ultra-Lightweight TinyML Inference Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R207,piccolo,1,Ultra-Lightweight TinyML Inference Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R207,piccolo,2,Sensor Data Pattern Recognition,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R207,piccolo,2,Sensor Data Pattern Recognition,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R207,piccolo,3,Low-Power Embedded AI Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R207,piccolo,3,Low-Power Embedded AI Optimization,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R210,simpleiot,1,Lightweight Edge IoT Platform,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R210,simpleiot,2,Graph-Based Device & Data Modeling,Data Capabilities,Data Capabilities,Continuum,Cross-cutting,1.0
+R210,simpleiot,3,Remote Device Management & Configuration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R212,MaixPy,1,On-Device AI Inference (TinyML),Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R212,MaixPy,1,On-Device AI Inference (TinyML),Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R212,MaixPy,2,Python-Based Embedded Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R212,MaixPy,2,Python-Based Embedded Runtime,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R212,MaixPy,3,Peripheral & Sensor Integration for IoT,Interface Capability,Interface Capability,device ↔ edge,Device,0.5
+R212,MaixPy,3,Peripheral & Sensor Integration for IoT,Interface Capability,Interface Capability,device ↔ edge,Edge,0.5
+R217,fogflow,1,Dynamic Service Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R217,fogflow,1,Dynamic Service Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R217,fogflow,2,Context-aware Service Discovery & Chaining,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R217,fogflow,2,Context-aware Service Discovery & Chaining,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R217,fogflow,3,Distributed Task Scheduling & Optimization,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R217,fogflow,3,Distributed Task Scheduling & Optimization,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R223,edgeai-gst-apps,1,Hardware-Accelerated GStreamer Pipelines,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R223,edgeai-gst-apps,1,Hardware-Accelerated GStreamer Pipelines,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R223,edgeai-gst-apps,2,End-to-End Streaming Edge Inference,Data Capabilities,Data Capabilities,edge ↔ fog,Edge,0.5
+R223,edgeai-gst-apps,2,End-to-End Streaming Edge Inference,Data Capabilities,Data Capabilities,edge ↔ fog,Fog,0.5
+R223,edgeai-gst-apps,3,Cross-Language & Configurable Runtime,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R223,edgeai-gst-apps,3,Cross-Language & Configurable Runtime,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R225,thin-edge.io,1,Lightweight IoT Edge Gateway,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R225,thin-edge.io,2,Multi-Protocol IoT Interoperability,Interface Capability,Interface Capability,Continuum,Cross-cutting,1.0
+R225,thin-edge.io,3,Remote Device Management & OTA Updates,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R227,flogo,1,Lightweight Event-Driven Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Edge,0.5
+R227,flogo,1,Lightweight Event-Driven Integration,Interface Capability,Interface Capability,edge ↔ Cloud,Cloud,0.5
+R227,flogo,2,Cross-Platform & Serverless Deployment,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R227,flogo,2,Cross-Platform & Serverless Deployment,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R227,flogo,3,Embedded AI/ML Inference in Flows,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R227,flogo,3,Embedded AI/ML Inference in Flows,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R235,saf,1,Semantic IoT Process Automation,Supporting capability,Supporting Capabilities,device ↔ fog,Device,0.5
+R235,saf,1,Semantic IoT Process Automation,Supporting capability,Supporting Capabilities,device ↔ fog,Fog,0.5
+R235,saf,2,Dynamic Orchestration & Service Composition,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R235,saf,2,Dynamic Orchestration & Service Composition,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R235,saf,3,Protocol Interoperability for Industrial IoT,Interface Capability,Interface Capability,device ↔ fog,Device,0.5
+R235,saf,3,Protocol Interoperability for Industrial IoT,Interface Capability,Interface Capability,device ↔ fog,Fog,0.5
+R238,edge-infer,1,Lightweight Edge Model Inference,Data Capabilities,Data Capabilities,device ↔ fog,Device,0.5
+R238,edge-infer,1,Lightweight Edge Model Inference,Data Capabilities,Data Capabilities,device ↔ fog,Fog,0.5
+R238,edge-infer,2,Cross-Platform Runtime Support,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R238,edge-infer,2,Cross-Platform Runtime Support,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R238,edge-infer,3,Configurable Inference Pipeline,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R238,edge-infer,3,Configurable Inference Pipeline,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R241,WasmEdge,1,Lightweight & Secure Application Runtime,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R241,WasmEdge,2,AI/ML Inference in WASM Modules,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R241,WasmEdge,3,Cloud-Native & Edge Integration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R242,self,1,Multimodal Perception & Cognitive Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R242,self,1,Multimodal Perception & Cognitive Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R242,self,2,Distributed Agent-Oriented Orchestration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R242,self,2,Distributed Agent-Oriented Orchestration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R242,self,3,Extensible Hybrid Edge–Cloud AI Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Device,0.5
+R242,self,3,Extensible Hybrid Edge–Cloud AI Integration,Supporting Capabilities,Supporting Capabilities,device ↔ fog,Fog,0.5
+R247,Vitis-AI,1,Model Compilation & FPGA Acceleration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R247,Vitis-AI,2,End-to-End AI Deployment Stack,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R247,Vitis-AI,3,Hardware-Optimized Edge AI Runtime,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R251,yomo,1,Low-Latency Edge Stream Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Edge,0.5
+R251,yomo,1,Low-Latency Edge Stream Processing,Data Capabilities,Data Capabilities,edge ↔ fog,Fog,0.5
+R251,yomo,2,WASM-Based Modular Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R251,yomo,2,WASM-Based Modular Execution,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R251,yomo,3,AI-Enabled Real-Time Decision Making,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R251,yomo,3,AI-Enabled Real-Time Decision Making,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R254,kantv,1,Cross-Platform Media Processing,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R254,kantv,1,Cross-Platform Media Processing,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R254,kantv,2,Hardware-Accelerated Video Decoding,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Edge,0.5
+R254,kantv,2,Hardware-Accelerated Video Decoding,Supporting Capabilities,Supporting Capabilities,edge ↔ fog,Fog,0.5
+R254,kantv,3,Multi-Protocol Streaming & Playback,Interface Capability,Interface Capability,edge ↔ fog,Edge,0.5
+R254,kantv,3,Multi-Protocol Streaming & Playback,Interface Capability,Interface Capability,edge ↔ fog,Fog,0.5
+R257,ztachip,1,Custom Edge AI Hardware Acceleration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R257,ztachip,1,Custom Edge AI Hardware Acceleration,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R257,ztachip,2,SDK & Runtime for Edge AI Applications,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R257,ztachip,2,SDK & Runtime for Edge AI Applications,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R257,ztachip,3,Real-Time Vision & ML Inference,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R257,ztachip,3,Real-Time Vision & ML Inference,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R258,auritus,1,Model Optimization for Earable Edge,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R258,auritus,1,Model Optimization for Earable Edge,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R258,auritus,2,Hardware-Aware Model Compactness,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Device,0.5
+R258,auritus,2,Hardware-Aware Model Compactness,Supporting Capabilities,Supporting Capabilities,device ↔ edge,Edge,0.5
+R258,auritus,3,Extendability & Custom Pipeline,Data Capabilities,Data Capabilities,device ↔ edge,Device,0.5
+R258,auritus,3,Extendability & Custom Pipeline,Data Capabilities,Data Capabilities,device ↔ edge,Edge,0.5
+R259,open-horizon,1,Autonomous Policy-Based Workload Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R259,open-horizon,1,Autonomous Policy-Based Workload Orchestration,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R259,open-horizon,2,Resilient Offline Edge Operation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R259,open-horizon,2,Resilient Offline Edge Operation,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R259,open-horizon,3,Secure Lifecycle Management for Edge Services,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Edge,0.5
+R259,open-horizon,3,Secure Lifecycle Management for Edge Services,Supporting Capabilities,Supporting Capabilities,edge ↔ Cloud,Cloud,0.5
+R261,smart-social-distancing,1,Edge-Based Real-Time Social Distancing Analytics,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R261,smart-social-distancing,2,Multi-Hardware AI Acceleration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0
+R261,smart-social-distancing,3,Event-Driven Notification & Data Integration,Supporting Capabilities,Supporting Capabilities,Continuum,Cross-cutting,1.0

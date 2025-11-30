@@ -1,0 +1,9 @@
+column,count,percentage,total_rows,criterion
+arch_overview,58,82.86,70,non_null_non_empty
+diagrams,58,82.86,70,non_null_non_empty
+adrs,3,4.29,70,non_null_non_empty
+context,12,17.14,70,non_null_non_empty
+deployment,65,92.86,70,non_null_non_empty
+quality_attrs,25,35.71,70,non_null_non_empty
+interface,43,61.43,70,non_null_non_empty
+evaluation,18,25.71,70,non_null_non_empty
