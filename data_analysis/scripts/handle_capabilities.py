@@ -48,7 +48,7 @@ from matplotlib.colors import LinearSegmentedColormap
 # =========================
 
 # Adjust the input path as needed for your replication package
-INPUT = Path("../dataset/[Empirical Study]-included_by_criteria.csv")
+INPUT = Path("../dataset/[Empirical_Study]-included_by_criteria.csv")
 
 OUT_DIR_FIG = Path("../results/figs")
 OUT_DIR_TAB = Path("../results/tables")
@@ -473,8 +473,10 @@ def plot_heatmap(heat_percent: pd.DataFrame, outfile_png: Path, outfile_pdf: Pat
                 label,
                 ha="center",
                 va="center",
-                fontsize=9,
-                color="white" if vmax and v > vmax * 0.6 else "black",
+                fontsize=15,
+                fontweight="bold",
+                color="black",
+                # color="white" if vmax and v > vmax * 0.6 else "black",
             )
 
     ax.set_title("Capabilities by ISO Class and Layer (percentage of total)")
