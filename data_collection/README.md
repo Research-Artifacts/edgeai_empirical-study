@@ -1,5 +1,6 @@
 ## 🔍 Step 1 — GitHub Mining Script ([api_search.py](./api_search.py))
 
+![Dataset Collect](./pipeline.png)
 
 This script performs a structured mining process over GitHub’s REST API to retrieve repositories that match a predefined 
 set of Edge AI-related terms. It extracts key metadata —such as commit history, collaborators, stars, programming 
