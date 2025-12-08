@@ -38,7 +38,7 @@ This folder contains two subdirectories; each one includes its own README with a
 files, their purpose, and their role in the analysis workflow.
 
 
-* **`atlas.ti_exports/`** — raw and processed exports from ATLAS.ti.
+* **`atlas.ti_exports/`** — raw and processed exports from ATLAS.ti [ˆ1].
 
   ➡️ See the detailed description in **[README.md](./thematic_analysis/atlas.ti_exports/README.md)**.
 
@@ -48,3 +48,5 @@ files, their purpose, and their role in the analysis workflow.
   ➡️ See the detailed description in **[README.md](./thematic_analysis/study_artifacts/README.md)**.
 
 ---
+
+[ˆ1]: https://www.atlas.ti.com/

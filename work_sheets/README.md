@@ -62,7 +62,7 @@ Human assessment against the formal inclusion/exclusion criteria (Table I).
 Final verification of architecture-related materials:
 
 * Markdown documentation, `docs/` or `design/` folders, diagrams, ADRs, and other architectural artifacts.
-* **Output:** 70 repositories contained architectural documentation.
+* **Output:** 70 repositories contained any architectural documentation.
 
 ---
 
@@ -74,3 +74,5 @@ These worksheets provide:
 * Transparency of inclusion/exclusion decisions
 * Reproducibility of the dataset construction pipeline
 * Support for audit, replication, and review
+
+
